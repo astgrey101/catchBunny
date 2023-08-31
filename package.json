@@ -1,0 +1,26 @@
+{
+  "name": "pixigame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-minimizer-webpack-plugin": "^4.4.0",
+    "html-webpack-plugin": "^5.5.3",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "pixi.js": "^7.2.4"
+  }
+}
